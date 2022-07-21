@@ -1,5 +1,8 @@
 package org.letcode.pages;
 
 public class DashBoardPage {
-sadf
+private void syso() {
+	// TODO Auto-generated method stub
+
+} 
 }
