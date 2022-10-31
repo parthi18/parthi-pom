@@ -9,3 +9,166 @@
 	<natures>
 	</natures>
 </projectDescription>
+	// Product Adjustment
+	@DataProvider(name = "testProductAdjustment")
+	public Object[][] productAdjustment() {
+
+		return new Object[][] {
+			{ 1, "Product_Adjuestment_Test01", "Product Adjustment", "Products", "In List", "bat",
+				"Percentage discount", "10" },
+			{ 2, "Product_Adjuestment_Test02", "Product Adjustment", "Products", "In List", "bat",
+					"Fixed discount", "50" },
+			{ 3, "Product_Adjuestment_Test03", "Product Adjustment", "Products", "In List", "bat",
+						"Fixed price per item", "50" },
+			{ 4, "Product_Adjuestment_Test04", "Product Adjustment", "Products", "In List", "bat",
+							"Percentage discount", "10" },
+			{ 5, "Product_Adjuestment_Test05", "Product Adjustment", "Products", "In List", "bat",
+								"Fixed discount", "50" },
+			{ 6, "Product_Adjuestment_Test06", "Product Adjustment", "Products", "In List", "bat",
+									"Fixed price per item", "50" },
+			{ 7, "Product_Adjuestment_Test07", "Product Adjustment", "Products", "In List", "bat",
+										"Percentage discount", "10" },
+			{ 8, "Product_Adjuestment_Test08", "Product Adjustment", "Products", "In List", "bat",
+											"Fixed discount", "50" },
+			{ 9, "Product_Adjuestment_Test09", "Product Adjustment", "Products", "In List", "bat",
+												"Fixed price per item", "50" },
+			{ 10, "Product_Adjuestment_Test10", "Product Adjustment", "Products", "In List", "bat",
+													"Fixed price per item", "50" } };
+	}
+
+	// Cart Adjustment
+	@DataProvider(name = "testCartAdjustment")
+	public Object[][] cartAdjustment() {
+
+		return new Object[][] {
+			{ 001, "Cart_Adjustment_Test01", "Cart Adjustment", "Products", "In List", "bat", "Percentage discount",
+			"10" },
+			{ 002, "Cart_Adjustment_Test02", "Cart Adjustment", "Products", "In List", "bat", "Fixed discount",
+			"50" },
+			{ 003, "Cart_Adjustment_Test03", "Cart Adjustment", "Products", "In List", "bat",
+				"Fixed discount per product", "50" },
+			{ 001, "Cart_Adjustment_Test04", "Cart Adjustment", "Products", "In List", "bat", "Percentage discount",
+			"10" },
+			{ 002, "Cart_Adjustment_Test05", "Cart Adjustment", "Products", "In List", "bat", "Fixed discount",
+			"50" },
+			{ 003, "Cart_Adjustment_Test06", "Cart Adjustment", "Products", "In List", "bat",
+				"Fixed discount per product", "50" },
+			{ 001, "Cart_Adjustment_Test07", "Cart Adjustment", "Products", "In List", "bat", "Percentage discount",
+			"10" },
+			{ 002, "Cart_Adjustment_Test08", "Cart Adjustment", "Products", "In List", "bat", "Fixed discount",
+			"50" },
+			{ 003, "Cart_Adjustment_Test09", "Cart Adjustment", "Products", "In List", "bat",
+				"Fixed discount per product", "50" },
+			{ 004, "Cart_Adjustment_Test10", "Cart Adjustment", "Products", "In List", "bat",
+					"Fixed discount per product", "50" } };
+	}
+
+	// Bulk Discount
+	@DataProvider(name = "testBulkDiscount")
+	public Object[][] bulkDiscount() {
+
+		return new Object[][] {
+			{ 001, "Bulk_Disocunt_Test001", "Bulk Discount", "Products", "In List", "bat", "Individual product",
+				"1", "5", "Percentage discount", "10" },
+			{ 002, "Bulk_Disocunt_Test002", "Bulk Discount", "Products", "In List", "bat", "Individual product",
+					"1", "5", "Fixed discount", "50" },
+			{ 003, "Bulk_Disocunt_Test003", "Bulk Discount", "Products", "In List", "bat", "Individual product",
+						"1", "5", "Fixed price for item", "10" },
+			{ 001, "Bulk_Disocunt_Test004", "Bulk Discount", "Products", "In List", "bat", "Individual product",
+							"1", "5", "Percentage discount", "5" },
+			{ 002, "Bulk_Disocunt_Test005", "Bulk Discount", "Products", "In List", "bat", "Individual product",
+								"1", "5", "Fixed discount", "5" },
+			{ 003, "Bulk_Disocunt_Test006", "Bulk Discount", "Products", "In List", "bat", "Individual product",
+									"1", "5", "Fixed price for item", "5" },
+			{ 001, "Bulk_Disocunt_Test007", "Bulk Discount", "Products", "In List", "bat", "Individual product",
+										"1", "5", "Percentage discount", "15" },
+			{ 002, "Bulk_Disocunt_Test008", "Bulk Discount", "Products", "In List", "bat", "Individual product",
+											"1", "5", "Fixed discount", "15" },
+			{ 003, "Bulk_Disocunt_Test009", "Bulk Discount", "Products", "In List", "bat", "Individual product",
+												"1", "5", "Fixed price for item", "15" },
+			{ 003, "Bulk_Disocunt_Test0010", "Bulk Discount", "Products", "In List", "bat", "Individual product",
+													"1", "5", "Fixed price for item", "50" } };
+
+	}
+
+	// Bulk (set) Disocunt
+	@DataProvider(name = "testBulkSetDiscount")
+	public Object[][] bulkSetDisocunt() {
+
+		return new Object[][] {
+			{ 001, "Bundle_Set_Disocunt_Test001", "Bundle (Set) Discount", "Products", "In List", "bat",
+				"Individual product", "5", "50", "Fixed price for set / bundle" },
+			{ 002, "Bundle_Set_Disocunt_Test002", "Bundle (Set) Discount", "Products", "In List", "bat",
+					"Individual product", "5", "10", "Percentage discount per item" },
+			{ 003, "Bundle_Set_Disocunt_Test003", "Bundle (Set) Discount", "Products", "In List", "bat",
+						"Individual product", "5", "50", "Fixed discount per item" },
+			{ 001, "Bundle_Set_Disocunt_Test004", "Bundle (Set) Discount", "Products", "In List", "bat",
+							"Individual product", "10", "50", "Fixed price for set / bundle" },
+			{ 002, "Bundle_Set_Disocunt_Test005", "Bundle (Set) Discount", "Products", "In List", "bat",
+								"Individual product", "15", "10", "Percentage discount per item" },
+			{ 003, "Bundle_Set_Disocunt_Test006", "Bundle (Set) Discount", "Products", "In List", "bat",
+									"Individual product", "7", "50", "Fixed discount per item" },
+			{ 001, "Bundle_Set_Disocunt_Test007", "Bundle (Set) Discount", "Products", "In List", "bat",
+										"Individual product", "3", "50", "Fixed price for set / bundle" },
+			{ 002, "Bundle_Set_Disocunt_Test008", "Bundle (Set) Discount", "Products", "In List", "bat",
+											"Individual product", "4", "10", "Percentage discount per item" },
+			{ 003, "Bundle_Set_Disocunt_Test009", "Bundle (Set) Discount", "Products", "In List", "bat",
+												"Individual product", "5", "50", "Fixed discount per item" },
+			{ 003, "Bundle_Set_Disocunt_Test010", "Bundle (Set) Discount", "Products", "In List", "bat",
+													"Individual product", "5", "50", "Fixed discount per item" } };
+	}
+
+	// Buy X Get X Disocunt
+	@DataProvider(name = "testBXGX")
+	public Object[][] bXGX() {
+
+		return new Object[][] {
+			{ 001, "BuyXGetX_Test001", "Buy X get X", "Products", "In List", "bat", "5", "10", "2", "Free", "10" },
+			{ 002, "BuyXGetX_Test002", "Buy X get X", "Products", "In List", "bat", "3", "11", "2",
+				"Percentage discount", "10" },
+			{ 003, "BuyXGetX_Test003", "Buy X get X", "Products", "In List", "bat", "2", "12", "2",
+					"Fixed discount", "15" },
+			{ 001, "BuyXGetX_Test004", "Buy X get X", "Products", "In List", "bat", "4", "13", "2", "Free", "10" },
+			{ 002, "BuyXGetX_Test005", "Buy X get X", "Products", "In List", "bat", "3", "16", "2","Percentage discount", "50" },
+			{ 003, "BuyXGetX_Test006", "Buy X get X", "Products", "In List", "bat", "6", "13", "2",
+				"Fixed discount", "10" },
+			{ 001, "BuyXGetX_Test007", "Buy X get X", "Products", "In List", "bat", "1", "16", "2", "Free", "10" },
+			{ 002, "BuyXGetX_Test008", "Buy X get X", "Products", "In List", "bat", "2", "12", "2",
+				"Percentage discount", "40" },
+			{ 003, "BuyXGetX_Test009", "Buy X get X", "Products", "In List", "bat", "3", "12", "2",
+					"Fixed discount", "20" },
+			{ 003, "BuyXGetX_Test010", "Buy X get X", "Products", "In List", "bat", "1", "11", "2",
+						"Fixed discount", "10" } };
+
+	}
+
+	// Buy X Get Y Disocunt
+	@DataProvider(name = "testBXGY")
+	public Object[][] bXGY() {
+
+		return new Object[][] {
+			{ 001, "BXGYTest001", "Buy X get Y", "Products", "In List", "bat", "Buy X Get Y - Products",
+				"Filters set above", "highest", "2", "8", "bat", "2", "Free", "40" },
+			{ 002, "BXGYTest002", "Buy X get Y", "Products", "In List", "bat", "Buy X Get Y - Products",
+					"Filters set above", "highest", "6", "5", "bat", "2", "Percentage discount", "40" },
+			{ 003, "BXGYTest003", "Buy X get Y", "Products", "In List", "bat", "Buy X Get Y - Products",
+						"Filters set above", "highest", "5", "10", "bat", "2", "Fixed discount", "50" },
+
+			{ 001, "BXGYTest004", "Buy X get Y", "Products", "In List", "bat", "Buy X Get Y - Products ",
+							"Individual Product", "highest", "4", "15", "bat", "2", "Free", "40" },
+			{ 002, "BXGYTest005", "Buy X get Y", "Products", "In List", "bat", "Buy X Get Y - Products",
+								"Individual Product", "highest", "5", "8", "bat", "2", "Percentage discount", "20" },
+			{ 003, "BXGYTest006", "Buy X get Y", "Products", "In List", "bat", "Buy X Get Y - Products",
+									"Individual Product", "highest", "1", "28", "bat", "2", "Fixed discount", "30" },
+
+			{ 001, "BXGYTest007", "Buy X get Y", "Products", "In List", "bat", "Buy X Get Y - Products",
+										"All variants in each product together", "highest", "1", "4", "bat", "2", "Free", "40" },
+			{ 002, "BXGYTest008", "Buy X get Y", "Products", "In List", "bat", "Buy X Get Y - Products",
+											"All variants in each product together", "highest", "2", "6", "bat", "2", "Percentage discount", "10" },
+			{ 003, "BXGYTest009", "Buy X get Y", "Products", "In List", "bat", "Buy X Get Y - Products ",
+												"All variants in each product together", "highest", "3", "7", "bat", "2", "Fixed discount", "60" },
+
+			{ 003, "BXGYTest010", "Buy X get Y", "Products", "In List", "bat", "Buy X Get Y - Products",
+													"Filters set above", "highest", "2", "8", "bat", "2", "Fixed discount", "60" } };
+
+	}
