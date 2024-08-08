@@ -14,7 +14,7 @@ public class AutomationReport {
 		ExtentReports extent = new ExtentReports();
 		extent.attachReporter(reporter);
 		ExtentTest test = extent.createTest("TC001 - Search product");
-		test.assignAuthor("koushik");
+		test.assignAuthor("parthi");
 		test.assignCategory("smoke");
 		test.pass("Enter the desired product name");
 		test.pass("Check if the product is listed");
