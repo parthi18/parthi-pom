@@ -7,7 +7,7 @@ public class MyTest extends Report{
 	@BeforeTest
 	void setData() {
 			desc ="first test";
-			author ="koushik";
+			author ="parthi";
 			category="sanity";
 	}	
 	@Test
