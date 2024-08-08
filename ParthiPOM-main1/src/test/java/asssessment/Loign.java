@@ -20,7 +20,7 @@ public class Loign extends SeleniumBase{
 	@Test
 	void login(){
 		click(element(Locators.link, "Log in"));
-		type(element(Locators.name, "emai"), "koushik350@gmail.com");
+		type(element(Locators.name, "emai"), "parthipugazh18@gmail.com");
 		type(element(Locators.name, "password"), "Pass123$");
 		click(element(Locators.css, "button.button.is-primary"));
 		System.out.println("completed");
